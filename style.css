@@ -7,17 +7,12 @@ body{
     font-family: sans-serif;
 }
 
-li {
-    list-style: none;
-}
-.nav {
+header{
     width: 200px;
     position: relative;
     cursor: pointer;
-
-
 }
-.btn {
+#btn {
     padding: 10px;
     background: #007bff;
     border: none;
@@ -40,6 +35,7 @@ li {
 }
 .list li {
     padding: 10px;
+    list-style: none;
 }
 .list li:hover{
   background: #eeeeee;
